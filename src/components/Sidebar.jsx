@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
-import { PngSidebarlogo } from "../assets";
-import { sidebarEnteries } from "../screens/globalarray";
+import { PngSidebarlogo } from "assets";
+import { sidebarEnteries } from "../global/globalarray";
 
 export default function Sidebar() {
   return (

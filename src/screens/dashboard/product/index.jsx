@@ -1,6 +1,5 @@
-import React from "react";
 import { Link } from "react-router-dom";
-import { ButtonPrimary, Header } from "../../../components";
+import { ButtonPrimary, Header } from "components";
 
 function index() {
   return (

@@ -1,5 +1,4 @@
-import React from "react";
-import { ButtonPrimary, Header } from "../../../components";
+import { ButtonPrimary, Header } from "components";
 
 function NewProduct() {
   return (

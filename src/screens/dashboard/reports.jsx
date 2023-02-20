@@ -1,5 +1,5 @@
-import { Header } from "../../components";
-import SearchBoxTwo from "../../components/SearchBoxTwo";
+import { Header, SearchBoxTwo } from "components";
+
 export default function reports() {
   return (
     <>

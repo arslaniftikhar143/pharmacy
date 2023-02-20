@@ -1,5 +1,6 @@
-import { PngProfilePic } from "../../assets";
-import { ButtonPrimary, Header, SearchBoxEntry } from "../../components";
+import { PngProfilePic } from "assets";
+import { ButtonPrimary, Header, SearchBoxEntry } from "components";
+
 export default function index() {
   return (
     <>

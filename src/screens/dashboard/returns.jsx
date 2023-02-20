@@ -1,5 +1,4 @@
-import { ButtonPrimary, Header } from "../../components";
-import SearchBoxTwo from "../../components/SearchBoxTwo";
+import { ButtonPrimary, Header, SearchBoxTwo } from "components";
 
 export default function returns() {
   return (

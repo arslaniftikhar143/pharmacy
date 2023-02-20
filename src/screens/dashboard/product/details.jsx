@@ -1,4 +1,4 @@
-import { ButtonPrimary, Header } from "../../../components";
+import { ButtonPrimary, Header } from "components";
 
 function Details() {
   const BatchCard = [
