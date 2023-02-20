@@ -50,7 +50,7 @@
 }
 
 .product__container__body__table {
-  height: 400px;
+  height: 430px;
   display: grid;
   grid-template-columns: repeat(12, auto);
   grid-template-rows: repeat(auto, 1fr);
@@ -102,11 +102,10 @@
 .product__container__body ::-webkit-scrollbar {
   background-color: transparent;
   width: 6px;
+  height: 6px;
 }
 .product__container__body ::-webkit-scrollbar-thumb {
-  width: 3px;
   background-color: #7a7a7a;
-  height: 20px;
   border-radius: 10px;
 }
 .product__container__body ::-webkit-scrollbar-button {

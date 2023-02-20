@@ -22,9 +22,8 @@
   width: 150px;
   height: 80px;
   padding: 1em;
-
+  margin: 0em 1em 1em 0em;
   cursor: pointer;
-  margin: 12px;
 }
 .home__header__card__heading {
   color: #0095ef;
@@ -65,6 +64,7 @@
   border: none;
   border-bottom: 1px solid #bdbdbd;
   padding: 1em 0em;
+  margin-left: 0.5em;
   background: transparent;
   outline: none;
   color: var(--primary);
@@ -74,7 +74,7 @@
   outline: none;
 }
 .searchBox__container__header svg {
-  margin-right: 0.5em;
+  margin-left: 0.5em;
 }
 .searchBox__container__body {
   display: flex;
@@ -103,6 +103,7 @@
   padding: 0.5em;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
+  font-size: 14px;
 }
 .searchBox__container__body__entry:hover {
   background-color: #cceafc;
@@ -115,11 +116,6 @@
     color: #313131;
   }
 }
-.searchBox__container__body__entry__number {
-  position: relative;
-  color: var(--primary);
-}
-
 .searchBox__container__body__entry__name {
   text-align: left;
   width: 100%;
@@ -130,8 +126,9 @@
 .searchBox__container__body__entry__number {
   font-weight: 600;
   display: flex;
+  color: var(--primary);
   justify-content: flex-end;
-  min-width: 40px;
+  min-width: 25px;
 }
 .searchBox__container__body__entry__price {
   color: #6b6b6b;
@@ -147,7 +144,7 @@
 }
 .container__home__total {
   width: 500px;
-  padding: 1em;
+  padding: 1em 0.5em 1em 1em;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
   margin: 0em 1em;
@@ -182,13 +179,15 @@
 }
 .container__home__card__header__entry {
   flex: 1;
+  color: #6b6b6b;
   font-weight: bold;
 }
 .container__home__card__total__subentry {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5em 0.5em 0.5em 0em;
+  padding: 0.5em 1em 0.5em 0em;
+  font-weight: 500;
 }
 .container__home__card__total__subentry__item {
   min-width: 100px;
