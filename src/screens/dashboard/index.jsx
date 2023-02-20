@@ -1,9 +1,22 @@
 import { PngProfilePic } from "assets";
-import { ButtonPrimary, Header, SearchBoxEntry } from "components";
+import { ButtonPrimary, Header, SearchBoxEntry, Popup } from "components";
+import { createPortal } from "react-dom";
+import { useState } from "react";
 
 export default function index() {
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
   return (
     <>
+      {createPortal(
+        isPopupOpen && (
+          <Popup
+            onClose={() => {
+              setIsPopupOpen(false);
+            }}
+          />
+        ),
+        document.body
+      )}
       <Header>
         <button className="home__header__profile">
           <div className="home__header__profile__img">
@@ -329,7 +342,13 @@ export default function index() {
               </div>
             </div>
             <div className="container__home__card__footer">
-              <ButtonPrimary>Collect Bill</ButtonPrimary>
+              <ButtonPrimary
+                onClick={() => {
+                  setIsPopupOpen(true);
+                }}
+              >
+                Collect Bill
+              </ButtonPrimary>
               <div className="container__home__card__footer__price">
                 Total Bill <span>2300</span>
               </div>
