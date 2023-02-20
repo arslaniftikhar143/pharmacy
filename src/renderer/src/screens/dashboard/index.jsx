@@ -132,7 +132,7 @@ export default function index() {
                   2000
                 </div>
                 <div className="container__home__card__total__subentry__input">
-                  <input type="number" />
+                  <input type="number" maxLength="4" />
                 </div>
                 <div className="container__home__card__total__subentry__total">
                   50000
@@ -168,7 +168,7 @@ export default function index() {
                   2000
                 </div>
                 <div className="container__home__card__total__subentry__input">
-                  <input type="number" />
+                  <input type="number" maxLength="4" />
                 </div>
                 <div className="container__home__card__total__subentry__total">
                   50000
@@ -204,7 +204,7 @@ export default function index() {
                   2000
                 </div>
                 <div className="container__home__card__total__subentry__input">
-                  <input type="number" />
+                  <input type="number" maxLength="4" />
                 </div>
                 <div className="container__home__card__total__subentry__total">
                   50000
@@ -240,7 +240,7 @@ export default function index() {
                   2000
                 </div>
                 <div className="container__home__card__total__subentry__input">
-                  <input type="number" />
+                  <input type="number" maxLength="4" />
                 </div>
                 <div className="container__home__card__total__subentry__total">
                   50000
@@ -276,7 +276,7 @@ export default function index() {
                   2000
                 </div>
                 <div className="container__home__card__total__subentry__input">
-                  <input type="number" />
+                  <input type="number" maxLength="4" />
                 </div>
                 <div className="container__home__card__total__subentry__total">
                   50000
@@ -312,7 +312,7 @@ export default function index() {
                   2000
                 </div>
                 <div className="container__home__card__total__subentry__input">
-                  <input type="number" />
+                  <input type="number" maxLength="4" />
                 </div>
                 <div className="container__home__card__total__subentry__total">
                   50000

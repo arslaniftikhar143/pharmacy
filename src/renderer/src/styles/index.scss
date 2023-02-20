@@ -41,15 +41,12 @@
   display: flex;
   align-items: flex-start;
 }
-// .product__container__body__table__wrapper {
-//   display: contents;
-//   border: none;
-// }
 
 .searchBox__container {
   display: flex;
   flex-direction: column;
-  width: 500px;
+  min-width: 500px;
+
   padding: 1em 0.5em 1em 1em;
   border: 1px solid #bdbdbd;
   border-radius: 10px;
@@ -189,12 +186,17 @@
   padding: 0.5em 1em 0.5em 0em;
   font-weight: 500;
 }
-.container__home__card__total__subentry__item {
-  min-width: 100px;
+.container__home__card__total__subentry__item,
+.container__home__card__total__subentry__price,
+.container__home__card__total__subentry__input {
+  width: clamp(100px, 20%, 100px);
 }
-
+.container__home__card__total__subentry__total {
+  color: #444444;
+  font-weight: bold;
+}
 .container__home__card__total__subentry__input input {
-  width: 50px;
+  width: 70%;
   padding: 6px;
   margin: 0.4em 0em;
   justify-content: space-between;
