@@ -1,9 +1,10 @@
 .product__container {
   width: 100%;
-  min-height: calc(100vh - 60px - 3em);
+  height: calc(100vh - 110px);
   background-color: #fff;
   padding: 1em;
   border-radius: 10px;
+  overflow-y: scroll;
 }
 .product__container__header {
   display: flex;

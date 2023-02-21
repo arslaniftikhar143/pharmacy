@@ -6,7 +6,7 @@ export default function returns() {
       <Header />
       <div className="product__container">
         <div className="returns__container__content">
-          <div style={{ width: "550px" }} className="searchBox__container">
+          <div className="searchBoxTwo__container">
             <div className="searchBox__container__header">
               <svg
                 width="20"
