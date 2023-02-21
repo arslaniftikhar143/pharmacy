@@ -31,13 +31,13 @@
   color: var(--primary);
   font-weight: 600;
   text-align: right;
-  width: clamp(25px, 15%, 30px);
+  width: clamp(20px, 10%, 25px);
   font-size: 12px;
 }
 .searchBoxTwo__container__entry__name {
   text-align: left;
-  width: clamp(100px, 40%, 120px);
-  margin-left: -1em;
+  width: clamp(100px, 40%, 150px);
+  margin-left: -1.5em;
 }
 .searchBoxTwo__container__entry__price {
   text-align: right;
